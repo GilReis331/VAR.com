@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>VAR.com</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="topbar">
+
+    <div class="logo">
+      <h1><i class="fas fa-flag"></i> VAR.com</h1>
+    </div>
+
+    <nav class="menu">
+
+    <button class="filter-btn active" data-category="all">
+        <strong><i class="fas fa-house"></i> Home</strong>
+    </button>
+
+    <button class="filter-btn" data-category="transfer">
+        <strong><i class="fas fa-circle-info"></i> About</strong>
+    </button>
+
+    <button class="filter-btn" data-category="champions">
+        <strong><i class="fas fa-address-book"></i> Contacts</strong>
+    </button>
+
+
+</nav>
+
+
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="container" id="appContent">
+
+    <!-- HOME -->
+    <section id="homePage">
+
+        <!-- TOPO -->
+        <section class="top-content">
+
+            <!-- HERO -->
+            <article class="hero-card" id="heroCard"></article>
+
+            <!-- AI CARD -->
+            <aside class="ai-card"></aside>
+
+        </section>
+
+        <!-- FEED -->
+        <section class="feed-section"></section>
+
+    </section>
+
+   <section id="aboutPage" class="hidden-page">
+
+    <h1>ABOUT PAGE</h1>
+
+</section>
+
+<section id="contactPage" class="hidden-page">
+
+    <h1>CONTACT PAGE</h1>
+
+</section>
+
+
+</main>
+  <!-- ======================================
+     MODAL
+====================================== -->
+
+<div class="news-modal" id="newsModal">
+
+    <div class="modal-content">
+
+        <!-- FECHAR -->
+
+        <button class="close-modal" id="closeModal">
+
+            ✕
+
+        </button>
+
+        <!-- CONTEÚDO -->
+
+        <div id="modalBody">
+ 
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<script defer src="script/feed.js"></script>
+
+<script defer src="script/modal.js"></script>
+
+<script defer src="script/lazyload.js"></script>
+
+<script defer src="script/youtube.js"></script>
+
+<script defer src="script/ai.js"></script>
+
+<script defer src="script/sponsored.js"></script>
+
+<script defer src="script/hero.js"></script>
+
+<script defer src="script/ui.js"></script>
+
+<script defer src="script/filters.js"></script>
+
+<script defer src="script/api.js"></script>
+
+<script defer src="script/main.js"></script>
+</body>
+</html>
