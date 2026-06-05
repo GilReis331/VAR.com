@@ -1,5 +1,5 @@
 
-console.log("filters loaded");
+
 const filterButtons =
     document.querySelectorAll(".filter-btn");
 

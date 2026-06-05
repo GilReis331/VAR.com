@@ -52,7 +52,7 @@ if(!sponsoredCard) return;
 
     const ad =
         sponsoredAds[currentSponsored];
-        console.log(ad.video);
+        
 
     
 
@@ -134,8 +134,3 @@ setInterval(() => {
 
 }, 10000);
 
-function rotateSponsoredReels(){
-
-    console.log("sponsored running");
-
-}
