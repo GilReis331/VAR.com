@@ -56,11 +56,8 @@ const PORT =
 
 app.listen(PORT, () => {
 
-    console.log(`
-
-        SERVER RUNNING:
-        http://localhost:${PORT}
-
-    `);
+  console.log(
+    `🚀 VAR.com Backend running on port ${PORT}`
+);
 
 });

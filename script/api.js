@@ -7,9 +7,7 @@ async function fetchNews(){
         /* NEWS */
 
         const response =
-            await fetch(
-                "http://localhost:3000/api/news"
-            );
+            await fetch(`${API_URL}/api/news`)
 
         const news =
             await response.json();

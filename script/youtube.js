@@ -3,11 +3,7 @@ async function fetchYoutubeVideos(){
     try{
 
         const response =
-            await fetch(
-
-                "http://localhost:3000/api/youtube"
-
-            );
+            await fetch(`${API_URL}/api/youtube`)
 
         const data =
             await response.json();
