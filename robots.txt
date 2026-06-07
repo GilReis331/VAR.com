@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://varcom.netlify.app/sitemap.xml
